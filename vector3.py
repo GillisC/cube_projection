@@ -1,16 +1,5 @@
 import math
 import numpy as np
-import pygame
-
-pygame.init()
-
-WIDTH = 600
-HEIGHT = 600
-FPS = 60
-WHITE = (180, 180, 180)
-screen = pygame.display.set_mode((WIDTH, HEIGHT))
-clock = pygame.time.Clock()
-running = True
 
 class Vector3():
 
